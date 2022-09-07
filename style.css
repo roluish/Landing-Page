@@ -1,0 +1,163 @@
+.menu {
+    width: 100%;
+    height: auto;
+    align-items: center;
+    justify-content: center;
+    background-color: #272727;
+    margin: 0;
+    padding: 2rem 10px;
+}
+
+.logo {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 80px;
+}
+
+.menu-item {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.navbar {
+    display: flex;
+    justify-content: space-evenly;  
+}
+
+.navbar-expand-lg .navbar-collapse {
+    padding: 0 0px;
+    justify-content: end;
+}
+
+.navbar-nav {
+    width: 100%;
+    display: flex;
+    justify-content: end;
+    font-size: 18px; 
+    font-weight: 500;
+}
+
+.navbar-dark .navbar-nav .nav-link:hover {
+    color: #e6a416;
+}
+
+.navbar-dark .navbar-nav .nav-link.active {
+    color: #e6a416;
+}
+
+.nav-item {
+    display: flex;
+    color: #666;
+    position: relative;
+    padding: 0 5px;
+    overflow: hidden;
+    text-decoration: none;
+    text-transform: uppercase;
+    transition: .3s;
+}
+
+.nav-item:hover {
+    overflow: visible;
+} 
+
+.nav-item:before {
+    content: '';
+    position: absolute;
+    bottom: 0;
+    right: 100%;
+    width: 50%;
+    height: 2px;
+    background: #e6a416;
+    transition: .5s cubic-bezier(0.075, 0.82, 0.165, 1);
+}
+
+.nav-item:after {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 100%;
+    width: 50%;
+    height: 2px;
+    background: #e6a416;
+    transition: .5s cubic-bezier(0.075, 0.82, 0.165, 1);
+}
+
+.nav-item:hover:before {
+    right: 0;
+}
+
+.nav-item:hover:after {
+    left: 0;
+}
+
+.user {
+    display: flex;
+    justify-content: flex-start;
+    align-items:flex-start;
+}
+
+.user-link {
+    color: white;
+    font-size: 18px;
+    font-weight: 500;
+}
+
+.user-link:hover {
+    color: #e6a416;
+    text-decoration: none;
+    transition: 0.3s;
+}
+
+.user-link:active {
+    
+    color: #e6a416;
+}
+
+
+
+.Post-nav {
+    margin: 0px;
+    padding: 0;
+}
+
+.call-us {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.phone {
+    padding: 10px 15px;
+    background: #f1aa0f;
+    border-radius: 50%;
+    font-size: 20px;
+    margin: 4px 10px;
+}
+
+.phone a {
+    color: white;
+}
+
+.call-line {
+    font-size: 30px;
+    margin: 0;
+    line-height: 75%;
+    color: #f1aa0f;
+}
+
+.center-text {
+    font-size: 18px;
+    padding-top: 8px;
+    color: #f1aa0f;
+}
+
+.top-button {
+    display: flex;
+    justify-content: end;
+    align-items: center;
+    margin-right: 10px;
+}
+
